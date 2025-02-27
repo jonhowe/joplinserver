@@ -1,3 +1,3 @@
-notes.howehq.com {
+sample.domain.com {
     reverse_proxy app:22300
 }
