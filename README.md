@@ -8,6 +8,7 @@ Ensure you have the following installed:
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
+- DNS Record pointing to the IP docker is running on
 
 ## Setup
 
