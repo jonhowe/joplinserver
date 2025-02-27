@@ -74,6 +74,12 @@ Once the containers are running, you can access Joplin Server at:
 https://your.domain.com
 ```
 
+[default username and password](https://github.com/laurent22/joplin/blob/dev/packages/server/README.md#update-the-admin-user-credentials) are:
+username: admin@localhost
+password: admin
+
+and should be changed upon first login
+
 Ensure that the domain you set in `APP_BASE_URL` resolves correctly to your server.
 
 ### 5. Stopping and Removing Containers
@@ -118,6 +124,9 @@ docker-compose restart <service_name>
 ```
 
 Replace `<service_name>` with `caddy`, `db`, or `app` as needed.
+
+## Additional Information
+[Joplin Server Documentation](https://github.com/laurent22/joplin/blob/dev/packages/server/README.md)
 
 ## License
 
